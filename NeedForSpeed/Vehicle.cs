@@ -19,7 +19,6 @@ namespace NeedForSpeed
             {
                 return DefaultFuelConsumption;
             }
-        
         }
 
         public int HorsePower { get; set; }
