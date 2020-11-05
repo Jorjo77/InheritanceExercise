@@ -6,8 +6,9 @@ namespace Restaurant
 {
     public class Fish : MainDish
     {
-        public Fish(string name, decimal price, double grams) 
-            : base(name, price, grams)
+        private const double DefaultGrams = 22; 
+        public Fish(string name, decimal price) 
+            : base(name, price, DefaultGrams)
         {
         }
     }
