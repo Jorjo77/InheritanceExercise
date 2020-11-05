@@ -4,13 +4,12 @@ using System.Text;
 
 namespace NeedForSpeed
 {
-    public class Car : Vehicle
+    public class RaceMotorcycle : Motorcycle
     {
-        private const double DefaultFuelConsumption = 3;
-        public Car(int horsePower, double fuel) 
+        private const double DefaultFuelConsumption = 8;
+        public RaceMotorcycle(int horsePower, double fuel) 
             : base(horsePower, fuel)
         {
-
         }
 
         public override double FuelConsumption

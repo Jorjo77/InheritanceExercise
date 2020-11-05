@@ -6,7 +6,7 @@ namespace NeedForSpeed
 {
     public class Vehicle
     {
-        private const double defaultFuelConsumption = 1.25;
+        private const double DefaultFuelConsumption = 1.25;
         public Vehicle(int horsePower, double fuel)
         {
             HorsePower = horsePower;
@@ -17,7 +17,7 @@ namespace NeedForSpeed
         { 
             get
             {
-                return defaultFuelConsumption;
+                return DefaultFuelConsumption;
             }
         
         }
